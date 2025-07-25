@@ -1,0 +1,45 @@
+{
+  "world": {
+    "minLat": -90,
+    "maxLat": 90,
+    "minLon": -180,
+    "maxLon": 180
+  },
+  "iran": {
+    "minLat": 25,
+    "maxLat": 39,
+    "minLon": 44,
+    "maxLon": 64
+  },
+  "germany": {
+    "minLat": 47.2,
+    "maxLat": 55.1,
+    "minLon": 5.9,
+    "maxLon": 15.0
+  },
+  "france": {
+    "minLat": 41.0,
+    "maxLat": 51.1,
+    "minLon": -5.2,
+    "maxLon": 9.6
+  },
+    "greece": {
+      "minLat": 34.800800,
+      "maxLat": 41.749800,
+      "minLon": 19.374078,
+      "maxLon": 29.608925
+  },
+	"italy": {
+	  "minLat": 35.5,
+	  "maxLat": 47.1,
+	  "minLon": 6.6,
+	  "maxLon": 18.5
+  },
+	"belgium": {
+	  "minLat": 49.497586,
+	  "maxLat": 51.500039,
+	  "minLon": 2.544059,
+	  "maxLon": 6.408459
+	}
+  }
+}

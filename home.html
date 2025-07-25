@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>City Quiz</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    #quizGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+
+    .quizCard {
+      border: 1px solid #ccc;
+      padding: 16px;
+      border-radius: 12px;
+      background: #f7f9fc;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .quizCard:hover {
+      background: #e4ecf7;
+      transform: scale(1.02);
+    }
+
+    .quizCard img {
+      width: 100%;
+      height: auto;
+      max-height: 120px;
+      object-fit: contain;
+    }
+
+    .quizCard h3 {
+      margin: 10px 0 5px;
+    }
+
+    .quizCard p {
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>How many cities can you name?</h1>
+  <p>Test your geography skills · Works offline</p>
+
+<div id="quizGrid">
+<div class="quizCard" data-mode="albania">
+  <object 
+    type="image/svg+xml" 
+    data="maps/albania.svg" 
+    class="quiz-svg" 
+    aria-label="Albania map"
+  ></object>
+  <h3>Albania</h3>
+  <p>0 plays</p>
+</div>
+
+  
+<div class="quizCard" data-mode="austria">
+  <object 
+    type="image/svg+xml" 
+    data="maps/austria.svg" 
+    class="quiz-svg" 
+    aria-label="Austria map"
+  ></object>
+  <h3>Austria</h3>
+  <p>0 plays</p>
+</div>
+
+<div id="quizGrid">
+<div class="quizCard" data-mode="belgium">
+  <object 
+    type="image/svg+xml" 
+    data="maps/belgium.svg" 
+    class="quiz-svg" 
+    aria-label="Belgium map"
+  ></object>
+  <h3>Belgium</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="BiH">
+  <object 
+    type="image/svg+xml" 
+    data="maps/BiH.svg" 
+    class="quiz-svg" 
+    aria-label="BiH map"
+  ></object>
+  <h3>Bosnia and Herzegovina</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="bulgaria">
+  <object 
+    type="image/svg+xml" 
+    data="maps/bulgaria.svg" 
+    class="quiz-svg" 
+    aria-label="Bulgaria map"
+  ></object>
+  <h3>Bulgaria</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="Cyprus">
+  <object 
+    type="image/svg+xml" 
+    data="maps/cyprus.svg" 
+    class="quiz-svg" 
+    aria-label="Cyprus map"
+  ></object>
+  <h3>Cyprus</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="denmark">
+  <object 
+    type="image/svg+xml" 
+    data="maps/denmark.svg" 
+    class="quiz-svg" 
+    aria-label="Denmark map"
+  ></object>
+  <h3>Denmark</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="estonia">
+  <object 
+    type="image/svg+xml" 
+    data="maps/estonia.svg" 
+    class="quiz-svg" 
+    aria-label="Estonia map"
+  ></object>
+  <h3>Estonia</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="france">
+  <object 
+    type="image/svg+xml" 
+    data="maps/france.svg" 
+    class="quiz-svg" 
+    aria-label="France map"
+  ></object>
+  <h3>France</h3>
+  <p>0 plays</p>
+</div>
+
+
+<div class="quizCard" data-mode="germany">
+  <object 
+    type="image/svg+xml" 
+    data="maps/germany.svg" 
+    class="quiz-svg" 
+    aria-label="Germany map"
+  ></object>
+  <h3>Germany</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="greece">
+  <object 
+    type="image/svg+xml" 
+    data="maps/greece.svg" 
+    class="quiz-svg" 
+    aria-label="Greece map"
+  ></object>
+  <h3>Greece</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="hungary">
+  <object 
+    type="image/svg+xml" 
+    data="maps/hungary.svg" 
+    class="quiz-svg" 
+    aria-label="Hungary map"
+  ></object>
+  <h3>Hungary</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="iran">
+  <object 
+    type="image/svg+xml" 
+    data="maps/iran.svg" 
+    class="quiz-svg" 
+    aria-label="Iran map"
+  ></object>
+  <h3>Iran</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="italy">
+  <object 
+    type="image/svg+xml" 
+    data="maps/italy.svg" 
+    class="quiz-svg" 
+    aria-label="Italy map"
+  ></object>
+  <h3>Italy</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="japan">
+  <object 
+    type="image/svg+xml" 
+    data="maps/japan.svg" 
+    class="quiz-svg" 
+    aria-label="Japan map"
+  ></object>
+  <h3>Japan</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="portugal">
+  <object 
+    type="image/svg+xml" 
+    data="maps/portugal.svg" 
+    class="quiz-svg" 
+    aria-label="Portugal map"
+  ></object>
+  <h3>Portugal</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="world">
+  <object 
+    type="image/svg+xml" 
+    data="maps/world.svg" 
+    class="quiz-svg" 
+    aria-label="World map"
+  ></object>
+  <h3>World</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="spain">
+  <object 
+    type="image/svg+xml" 
+    data="maps/spain.svg" 
+    class="quiz-svg" 
+    aria-label="Spain map"
+  ></object>
+  <h3>Spain</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="netherlands">
+  <object 
+    type="image/svg+xml" 
+    data="maps/netherlands.svg" 
+    class="quiz-svg" 
+    aria-label="Netherlands map"
+  ></object>
+  <h3>Netherlands</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="india">
+  <object 
+    type="image/svg+xml" 
+    data="maps/india.svg" 
+    class="quiz-svg" 
+    aria-label="India map"
+  ></object>
+  <h3>India</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="poland">
+  <object 
+    type="image/svg+xml" 
+    data="maps/poland.svg" 
+    class="quiz-svg" 
+    aria-label="Poland map"
+  ></object>
+  <h3>Poland</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="ukraine">
+  <object 
+    type="image/svg+xml" 
+    data="maps/ukraine.svg" 
+    class="quiz-svg" 
+    aria-label="Ukraine map"
+  ></object>
+  <h3>Ukraine</h3>
+  <p>0 plays</p>
+</div>
+
+<div class="quizCard" data-mode="unitedstates">
+  <object 
+    type="image/svg+xml" 
+    data="maps/unitedstates.svg" 
+    class="quiz-svg" 
+    aria-label="unitedstates map"
+  ></object>
+  <h3>United States</h3>
+  <p>0 plays</p>
+</div>
+
+</div>
+
+  <script>
+    document.querySelectorAll('.quizCard').forEach(card => {
+      card.addEventListener('click', () => {
+        const mode = card.dataset.mode;
+        // Save mode to localStorage or pass to next screen
+        localStorage.setItem('quizMode', mode);
+        window.location.href = 'quiz.html'; // Replace with your game screen
+      });
+    });
+  </script>
+</body>
+</html>
